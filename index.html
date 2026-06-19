@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juoruankka · OPML-työkalu</title>
+    <meta
+      name="description"
+      content="Valitse RSS-syötteet ja lataa OPML-tiedosto Juoruankkaa varten."
+    />
+    <link rel="icon" type="image/svg+xml" href="images/juoruankka-favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/juoruankka-favicon-32.png" />
+    <link rel="apple-touch-icon" href="images/juoruankka-apple-touch-icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a class="brand" href="https://juoruankka.com" target="_blank" rel="noopener">
+          <img src="images/juoruankka-icon-48.png" alt="Juoruankka" class="brand-logo" />
+        </a>
+        <span class="brand-sub">OPML-työkalu</span>
+      </div>
+    </header>
+
+    <main class="container main">
+      <section class="intro">
+        <h1>Rakenna oma RSS-syötelista</h1>
+        <p>
+          Rastita haluamasi uutissyötteet ja lataa valmis
+          <strong>OPML-tiedosto</strong>. Voit tuoda tiedoston Juoruankkaan tai
+          mihin tahansa RSS-lukijaan.
+        </p>
+      </section>
+
+      <div class="toolbar">
+        <div class="toolbar-actions">
+          <button id="select-all" class="btn btn-ghost" type="button">Valitse kaikki</button>
+          <button id="clear-all" class="btn btn-ghost" type="button">Tyhjennä</button>
+        </div>
+        <div class="toolbar-status">
+          <span id="count-label">0 syötettä valittu</span>
+        </div>
+      </div>
+
+      <div id="feed-groups" class="feed-groups"></div>
+
+      <div class="download-bar">
+        <button id="download" class="btn btn-primary" type="button" disabled>
+          Lataa OPML-tiedosto
+        </button>
+        <p class="hint">
+          Valitse vähintään yksi syöte ladataksesi tiedoston.
+        </p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Tehty <a href="https://juoruankka.com" target="_blank" rel="noopener">Juoruankka</a>-käyttäjille ·
+        OPML 2.0
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
