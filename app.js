@@ -87,11 +87,24 @@ function render() {
       url.textContent = feed.url;
 
       text.append(name, url);
-      li.append(checkbox, text);
 
-      // Clicking the row toggles the checkbox (except clicks on the box itself).
+      const copyBtn = document.createElement("button");
+      copyBtn.type = "button";
+      copyBtn.className = "feed-copy";
+      copyBtn.textContent = "Kopioi";
+      copyBtn.title = "Kopioi syötteen osoite";
+      copyBtn.setAttribute("aria-label", `Kopioi osoite: ${feed.url}`);
+      copyBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        copyUrl(feed.url, copyBtn);
+      });
+
+      li.append(checkbox, text, copyBtn);
+
+      // Clicking the row toggles the checkbox (except clicks on the box itself
+      // or the copy button, which handle their own clicks).
       li.addEventListener("click", (e) => {
-        if (e.target !== checkbox) {
+        if (e.target !== checkbox && e.target !== copyBtn) {
           checkbox.checked = !checkbox.checked;
           updateCount();
         }
@@ -103,6 +116,39 @@ function render() {
     section.append(header, list);
     groupsEl.appendChild(section);
   }
+}
+
+// Copy a feed URL to the clipboard, with a clipboard-API fallback for
+// non-secure contexts (the page may be served over plain http locally).
+async function copyUrl(url, btn) {
+  let ok = false;
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(url);
+      ok = true;
+    } else {
+      const ta = document.createElement("textarea");
+      ta.value = url;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "absolute";
+      ta.style.left = "-9999px";
+      document.body.appendChild(ta);
+      ta.select();
+      ok = document.execCommand("copy");
+      document.body.removeChild(ta);
+    }
+  } catch (err) {
+    console.error("Copy failed:", err);
+  }
+
+  const original = "Kopioi";
+  btn.textContent = ok ? "Kopioitu!" : "Virhe";
+  btn.classList.toggle("copied", ok);
+  clearTimeout(btn._copyTimer);
+  btn._copyTimer = setTimeout(() => {
+    btn.textContent = original;
+    btn.classList.remove("copied");
+  }, 1500);
 }
 
 function toggleGroup(section) {

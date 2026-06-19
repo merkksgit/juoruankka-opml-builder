@@ -97,6 +97,11 @@ python3 -m http.server 8090   # http://localhost:8090
 To sanity-check generated OPML, select feeds in the browser, download, and
 confirm the file opens in an RSS reader / parses as XML.
 
+## Commits
+
+- Do **not** add a `Co-Authored-By` line (or any other AI/assistant trailer) to
+  commit messages.
+
 ## Relationship to the parent repo
 
 This lives inside the Juoruankka repo but is independent. The feed catalog
