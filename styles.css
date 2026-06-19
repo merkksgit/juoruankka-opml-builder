@@ -36,7 +36,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 880px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 1.25rem;
 }
@@ -70,16 +70,6 @@ body {
   width: auto;
 }
 
-.brand-sub {
-  font-family: "BigBlueTerm", monospace;
-  font-size: 0.95rem;
-  color: var(--secondary-color);
-  background: var(--card-bg);
-  border: 1px solid var(--border-color);
-  padding: 0.2rem 0.65rem;
-  border-radius: 999px;
-}
-
 /* Main */
 .main {
   flex: 1;
@@ -95,7 +85,6 @@ body {
 
 .intro p {
   color: var(--text-light);
-  max-width: 60ch;
 }
 
 .intro strong {
@@ -314,24 +303,6 @@ body {
 .hint {
   color: var(--text-light);
   font-size: 0.85rem;
-}
-
-/* Footer */
-.footer {
-  border-top: 1px solid var(--border-color);
-  padding: 1.25rem 0;
-  text-align: center;
-  color: var(--text-light);
-  font-size: 0.85rem;
-}
-
-.footer a {
-  color: var(--secondary-color);
-  text-decoration: none;
-}
-
-.footer a:hover {
-  color: var(--accent-color);
 }
 
 @media (max-width: 560px) {
