@@ -4,14 +4,35 @@
       "id": "paauutiset",
       "name": "Pääuutiset",
       "feeds": [
-        { "name": "YLE | Pääuutiset", "url": "https://yle.fi/rss/uutiset/paauutiset" },
-        { "name": "HS | Pääuutiset", "url": "http://www.hs.fi/rss/teasers/etusivu.xml" },
-        { "name": "HS | Pääkirjoitukset", "url": "http://www.hs.fi/rss/paakirjoitukset.xml" },
-        { "name": "Iltalehti | Pääuutiset", "url": "https://www.iltalehti.fi/rss/uutiset.xml" },
+        {
+          "name": "YLE | Pääuutiset",
+          "url": "https://yle.fi/rss/uutiset/paauutiset"
+        },
+        {
+          "name": "HS | Pääuutiset",
+          "url": "http://www.hs.fi/rss/teasers/etusivu.xml"
+        },
+        {
+          "name": "HS | Pääkirjoitukset",
+          "url": "http://www.hs.fi/rss/paakirjoitukset.xml"
+        },
+        {
+          "name": "Iltalehti | Pääuutiset",
+          "url": "https://www.iltalehti.fi/rss/uutiset.xml"
+        },
         { "name": "BBC | News", "url": "http://feeds.bbci.co.uk/news/rss.xml" },
-        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml" },
-        { "name": "The Independent", "url": "https://www.independent.co.uk/news/uk/rss" },
-        { "name": "Times of Israel", "url": "https://www.timesofisrael.com/feed/" },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/xml/rss/all.xml"
+        },
+        {
+          "name": "The Independent",
+          "url": "https://www.independent.co.uk/news/uk/rss"
+        },
+        {
+          "name": "Times of Israel",
+          "url": "https://www.timesofisrael.com/feed/"
+        },
         { "name": "NY Post", "url": "https://nypost.com/feed/" }
       ]
     },
@@ -19,15 +40,24 @@
       "id": "tuoreimmat",
       "name": "Tuoreimmat",
       "feeds": [
-        { "name": "YLE | Tuoreimmat", "url": "https://yle.fi/rss/uutiset/tuoreimmat" },
-        { "name": "IS | Tuoreimmat", "url": "https://www.is.fi/rss/tuoreimmat.xml" }
+        {
+          "name": "YLE | Tuoreimmat",
+          "url": "https://yle.fi/rss/uutiset/tuoreimmat"
+        },
+        {
+          "name": "IS | Tuoreimmat",
+          "url": "https://www.is.fi/rss/tuoreimmat.xml"
+        }
       ]
     },
     {
       "id": "luetuimmat",
       "name": "Luetuimmat",
       "feeds": [
-        { "name": "YLE | Luetuimmat", "url": "https://yle.fi/rss/uutiset/luetuimmat" }
+        {
+          "name": "YLE | Luetuimmat",
+          "url": "https://yle.fi/rss/uutiset/luetuimmat"
+        }
       ]
     },
     {
@@ -35,21 +65,30 @@
       "name": "Kotimaa",
       "feeds": [
         { "name": "IS | Kotimaa", "url": "https://www.is.fi/rss/kotimaa.xml" },
-        { "name": "YLE | Keski-Suomi", "url": "https://yle.fi/rss/t/18-148148/fi" }
+        {
+          "name": "YLE | Keski-Suomi",
+          "url": "https://yle.fi/rss/t/18-148148/fi"
+        }
       ]
     },
     {
       "id": "politiikka",
       "name": "Politiikka",
       "feeds": [
-        { "name": "YLE | Politiikka", "url": "https://yle.fi/rss/t/18-38033/fi" }
+        {
+          "name": "YLE | Politiikka",
+          "url": "https://yle.fi/rss/t/18-38033/fi"
+        }
       ]
     },
     {
       "id": "ulkomaat",
       "name": "Ulkomaat",
       "feeds": [
-        { "name": "IS | Ulkomaat", "url": "https://www.is.fi/rss/ulkomaat.xml" },
+        {
+          "name": "IS | Ulkomaat",
+          "url": "https://www.is.fi/rss/ulkomaat.xml"
+        },
         { "name": "YLE | Ulkomaat", "url": "https://yle.fi/rss/t/18-34953/fi" }
       ]
     },
@@ -58,14 +97,32 @@
       "name": "Teknologia",
       "feeds": [
         { "name": "IS | Digi", "url": "https://www.is.fi/rss/digitoday.xml" },
-        { "name": "MikroBitti", "url": "https://www.iltalehti.fi/rss/bitti.xml" },
-        { "name": "Tekniikanmaailma", "url": "https://tekniikanmaailma.fi/feed/" },
-        { "name": "After Dawn | Uutiset", "url": "http://feeds.afterdawn.com/afterdawn_uutiset" },
-        { "name": "Print&Media", "url": "https://pmlehti.fi/?cat=2,3,16&feed=rss2" },
-        { "name": "Traficom", "url": "https://www.kyberturvallisuuskeskus.fi/feed/rss/fi" },
+        {
+          "name": "MikroBitti",
+          "url": "https://www.iltalehti.fi/rss/bitti.xml"
+        },
+        {
+          "name": "Tekniikanmaailma",
+          "url": "https://tekniikanmaailma.fi/feed/"
+        },
+        {
+          "name": "After Dawn | Uutiset",
+          "url": "http://feeds.afterdawn.com/afterdawn_uutiset"
+        },
+        {
+          "name": "Print&Media",
+          "url": "https://pmlehti.fi/?cat=2,3,16&feed=rss2"
+        },
+        {
+          "name": "Traficom",
+          "url": "https://www.kyberturvallisuuskeskus.fi/feed/rss/fi"
+        },
         { "name": "Hacker News", "url": "https://hnrss.org/frontpage" },
         { "name": "Hacker News Active", "url": "https://hnrss.org/active" },
-        { "name": "TLDR Newsletter", "url": "https://bullrich.dev/tldr-rss/tech.rss" },
+        {
+          "name": "TLDR Newsletter",
+          "url": "https://bullrich.dev/tldr-rss/tech.rss"
+        },
         { "name": "Lifehacker", "url": "https://lifehacker.com/rss" }
       ]
     },
@@ -75,11 +132,23 @@
       "feeds": [
         { "name": "YLE | Urheilu", "url": "https://yle.fi/rss/urheilu" },
         { "name": "IS | Urheilu", "url": "https://www.is.fi/rss/urheilu.xml" },
-        { "name": "Iltalehti | Urheilu", "url": "https://www.iltalehti.fi/rss/urheilu.xml" },
+        {
+          "name": "Iltalehti | Urheilu",
+          "url": "https://www.iltalehti.fi/rss/urheilu.xml"
+        },
         { "name": "HS | Urheilu", "url": "http://www.hs.fi/rss/urheilu.xml" },
-        { "name": "Hockey Writers", "url": "https://thehockeywriters.com/feed/" },
-        { "name": "ESPN | NHL", "url": "https://www.espn.com/espn/rss/nhl/news" },
-        { "name": "Sportsnet | NHL", "url": "https://www.sportsnet.ca/hockey/nhl/feed" }
+        {
+          "name": "Hockey Writers",
+          "url": "https://thehockeywriters.com/feed/"
+        },
+        {
+          "name": "ESPN | NHL",
+          "url": "https://www.espn.com/espn/rss/nhl/news"
+        },
+        {
+          "name": "Sportsnet | NHL",
+          "url": "https://www.sportsnet.ca/hockey/nhl/feed"
+        }
       ]
     },
     {
@@ -88,7 +157,10 @@
       "feeds": [
         { "name": "IS | Viihde", "url": "https://www.is.fi/rss/viihde.xml" },
         { "name": "Muropaketti.com", "url": "https://muropaketti.com/feed" },
-        { "name": "Eurogamer.net", "url": "https://www.eurogamer.net/?format=rss" },
+        {
+          "name": "Eurogamer.net",
+          "url": "https://www.eurogamer.net/?format=rss"
+        },
         { "name": "How-To Geek", "url": "https://www.howtogeek.com/feed/" }
       ]
     },
@@ -97,7 +169,10 @@
       "name": "Tiede",
       "feeds": [
         { "name": "HS | Tiede", "url": "http://www.hs.fi/rss/tiede.xml" },
-        { "name": "NASA Breaking News", "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss" }
+        {
+          "name": "NASA Breaking News",
+          "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss"
+        }
       ]
     },
     {
@@ -111,33 +186,62 @@
       "id": "youtube",
       "name": "YouTube",
       "feeds": [
-        { "name": "YouTube | Linus Tech Tips", "url": "https://www.youtube.com/feeds/videos.xml?user=LinusTechTips" },
-        { "name": "YouTube | NetworkChuck", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ" },
-        { "name": "YouTube | Learn Linux TV", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCxQKHvKbmSzGMvUrVtJYnUA" },
-        { "name": "YouTube | The PrimeTime", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUyeluBRhGPCW4rPe_UvBZQ" },
-        { "name": "YouTube | Asmongold TV", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCQeRaTukNYft1_6AZPACnog" },
-        { "name": "YouTube | Wingmen", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuIc9-ayrFuDBdaY5M0gDqw" },
-        { "name": "YouTube | Spittin Chiclets", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChV3NHKFYgxe4k1ajuk_bbw" },
-        { "name": "YouTube | Rotten Mango", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0JJtK3m8pwy6rVgnBz47Rw" },
-        { "name": "YouTube | Tyler Oliveira", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCY8SLLJjWpS4sx1dEqECaIw" }
+        {
+          "name": "YouTube | Linus Tech Tips",
+          "url": "https://www.youtube.com/feeds/videos.xml?user=LinusTechTips"
+        },
+        {
+          "name": "YouTube | NetworkChuck",
+          "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ"
+        },
+        {
+          "name": "YouTube | Learn Linux TV",
+          "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCxQKHvKbmSzGMvUrVtJYnUA"
+        },
+        {
+          "name": "YouTube | Spittin Chiclets",
+          "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChV3NHKFYgxe4k1ajuk_bbw"
+        },
+        {
+          "name": "YouTube | Rotten Mango",
+          "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC0JJtK3m8pwy6rVgnBz47Rw"
+        }
       ]
     },
     {
       "id": "podcasts",
       "name": "Podcastit",
       "feeds": [
-        { "name": "32 Thoughts: The Podcast", "url": "https://feeds.simplecast.com/fYqFr5h_" },
-        { "name": "The Athletic Hockey Show", "url": "https://www.nytimes.com/athletic/rss/podcast/240-the-athletic-hockey-show/" },
-        { "name": "The Ray & Dregs Hockey Podcast", "url": "https://www.omnycontent.com/d/playlist/ef0b54d5-0945-45de-87e7-b03e0114d04c/36659e90-c32b-4e01-bc3e-b03e01187900/fcbc5f39-4eec-4e22-8a0d-b03e01187dfb/podcast.rss" },
-        { "name": "The Sheet with Jeff Marek", "url": "https://feeds.acast.com/public/shows/672c0e761e4926b519960bc2" }
+        {
+          "name": "32 Thoughts: The Podcast",
+          "url": "https://feeds.simplecast.com/fYqFr5h_"
+        },
+        {
+          "name": "The Athletic Hockey Show",
+          "url": "https://www.nytimes.com/athletic/rss/podcast/240-the-athletic-hockey-show/"
+        },
+        {
+          "name": "The Ray & Dregs Hockey Podcast",
+          "url": "https://www.omnycontent.com/d/playlist/ef0b54d5-0945-45de-87e7-b03e0114d04c/36659e90-c32b-4e01-bc3e-b03e01187900/fcbc5f39-4eec-4e22-8a0d-b03e01187dfb/podcast.rss"
+        },
+        {
+          "name": "The Sheet with Jeff Marek",
+          "url": "https://feeds.acast.com/public/shows/672c0e761e4926b519960bc2"
+        }
       ]
     },
     {
       "id": "github",
       "name": "GitHub",
       "feeds": [
-        { "name": "GitHub | Claude Code – Releases", "url": "https://github.com/anthropics/claude-code/releases.atom" },
-        { "name": "GitHub | Neovim – Releases", "url": "https://github.com/neovim/neovim/releases.atom" }
+        {
+          "name": "GitHub | Claude Code – Releases",
+          "url": "https://github.com/anthropics/claude-code/releases.atom"
+        },
+        {
+          "name": "GitHub | Neovim – Releases",
+          "url": "https://github.com/neovim/neovim/releases.atom"
+        }
       ]
     }
   ]
