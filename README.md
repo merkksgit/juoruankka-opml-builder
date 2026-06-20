@@ -31,7 +31,7 @@ python3 -m http.server 8090
 
 The site is fully self-contained, so any of these works:
 
-1. **Project subfolder** — push the repo and in *Settings → Pages* select the
+1. **Project subfolder** — push the repo and in _Settings → Pages_ select the
    branch with `/opml-builder` as the source folder (or move these files to a
    `docs/` folder).
 2. **Dedicated repo** — copy the contents of `opml-builder/` into the root of a
@@ -53,7 +53,10 @@ Structure:
       "id": "paauutiset",
       "name": "Pääuutiset",
       "feeds": [
-        { "name": "YLE | Pääuutiset", "url": "https://yle.fi/rss/uutiset/paauutiset" }
+        {
+          "name": "YLE | Pääuutiset",
+          "url": "https://yle.fi/rss/uutiset/paauutiset"
+        }
       ]
     }
   ]
@@ -72,3 +75,7 @@ Structure:
 
 > The app loads `feeds.json` with `fetch()`, so previewing locally needs a
 > server (`python3 -m http.server`), not opening `index.html` as a file.
+
+## License
+
+Part of the Juoruankka project.
