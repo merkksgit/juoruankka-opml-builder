@@ -161,7 +161,10 @@
           "name": "Eurogamer.net",
           "url": "https://www.eurogamer.net/?format=rss"
         },
-        { "name": "How-To Geek", "url": "https://www.howtogeek.com/feed/" }
+        { "name": "How-To Geek", "url": "https://www.howtogeek.com/feed/" },
+        { "name": "Collider", "url": "https://collider.com/feed" },
+        { "name": "/Film", "url": "https://feeds.feedburner.com/slashfilm" },
+        { "name": "Pitchfork", "url": "https://pitchfork.com/feed/feed-news/rss" }
       ]
     },
     {
